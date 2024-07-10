@@ -32,7 +32,7 @@ jobs:
       run: npm install
  
     - name: Run Audit
-      run: npm adit
+      run: npm audit
 
 
           
