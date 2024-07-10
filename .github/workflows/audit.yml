@@ -6,7 +6,7 @@
 # https://github.com/github/super-linter
 
 
-name: Lint Code Base
+name: Audit Code Base
 on:
   push:
     branches:
@@ -31,8 +31,8 @@ jobs:
     - name: Install dependencies
       run: npm install
  
-    - name: Run linter
-      run: npm run linter
+    - name: Run Audit
+      run: npm audit
 
 
           
