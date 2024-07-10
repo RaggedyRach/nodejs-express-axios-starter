@@ -6,7 +6,7 @@
 # https://github.com/github/super-linter
 
 
-name: Audit Code Base
+name: Build Code Base
 on:
   push:
     branches:
